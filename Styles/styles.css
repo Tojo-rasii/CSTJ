@@ -1,0 +1,499 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+body {
+    background: #f4f4f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background: #fff;
+    padding: 1em;
+}
+
+nav section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav section article {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+}
+
+nav section article img {
+    width: 3.5em;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+nav section article img:nth-child(2) {
+    width: 6.5em;
+    height: auto;
+    object-fit: cover;
+}
+
+nav section article span {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+nav section article span i {
+    font-size: 1.2em;
+    color: #058d20;
+}
+
+/* HEDER */
+header {
+    padding: 1em;
+    color: #fff;
+    background: #058d20;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+header section article {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+}
+
+header section article p {
+    cursor: pointer;
+    padding: 0.2em 0.3em;
+}
+
+
+header section article:nth-child(1) p {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+header section article:nth-child(2) p {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+header section article:nth-child(1) p span {
+    font-size: 1.3em;
+}
+
+
+header section article:nth-child(3) i {
+    cursor: pointer;
+    font-size: 1.2em;
+    background: #fff;
+    border-radius: 50%;
+    padding: 0.4em 0.6em;
+    border: 2px solid #058d20;
+    outline: 2px solid #fff;
+    color: #058d20;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+/* MAIN accueil */
+main section:nth-child(1) {
+    background-image: url('https://www.assemblee-nationale.mg/wp-content/uploads/2021/11/IMG_20210419_115907-900x300.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 74vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main section:nth-child(1) article {
+    background: #00000089;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5.5em;
+    gap: 2.5em;
+}
+
+main section:nth-child(1) article p:nth-child(1) {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+main section:nth-child(1) article p:nth-child(2) {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 0.2em;
+}
+
+main section:nth-child(1) article button {
+    padding: 1em 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8em;
+    text-transform: uppercase;
+    background: none;
+    color: #fff;
+    font-weight: bold;
+    outline: 3px solid #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.2em;
+    margin: 0 auto;
+}
+
+main section:nth-child(1) article span button i {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    position: static;
+}
+
+main section:nth-child(1) article span i {
+    font-size: 2em;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0.5em;
+}
+
+/* MAIN ACTUALITE */
+main section:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+main section:nth-child(2) article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+main section:nth-child(2) article:nth-child(1) p {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+main section:nth-child(2) article figure {
+    background: #fff;
+    padding: 1em;
+    width: 30vw;
+    border-radius: 0.2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main section:nth-child(2) article figure picture {
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+main section:nth-child(2) article figure picture img {
+    width: max-content;
+    max-width: 100%;
+    object-fit: cover;
+    height: max-content;
+    max-height: 36vh;
+}
+
+main section:nth-child(2) article figure figcaption {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main section:nth-child(2) article figure figcaption p:nth-child(1) {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+main section:nth-child(2) article figure figcaption p:nth-child(2) {
+    height: max-content;
+    max-height: 20vh;
+    overflow: hidden;
+    cursor: default;
+}
+
+main section:nth-child(2) article figure figcaption::after {
+    content: '...Voir plus';
+    position: relative;
+    cursor: pointer;
+    top: 0;
+}
+
+main section:nth-child(2) article figure figcaption::after:active main section:nth-child(2) article figure figcaption p:nth-child(2) {
+    max-height: 60vh;
+}
+
+main section:nth-child(2) article:nth-child(3) {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2.5em;
+}
+
+main section:nth-child(2) article:nth-child(3) button {
+    padding: 1em 1.3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    text-transform: uppercase;
+    background: #058d20;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #fff;
+    outline: 1px solid #058d20;
+    cursor: pointer;
+    border-radius: 0.2em;
+}
+
+/* MAIN APROPOS */
+main section:nth-child(3) {
+    background: #Fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+main section:nth-child(3) article:nth-child(1) {
+    width: 35em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5em;
+    gap: 1em;
+}
+
+main section:nth-child(3) article:nth-child(1) p:nth-child(1) {
+    font-weight: bold;
+    color: #058d20;
+    text-transform: uppercase;
+    font-size: 3.5em;
+}
+
+main section:nth-child(3) article:nth-child(1) p:nth-child(2) {
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 0.3em;
+    color: #353535;
+    display: none;
+}
+
+main section:nth-child(3) article:nth-child(1) p:nth-child(3) {
+    width: 35vw;
+    background: #f3f3f3;
+    padding: 0.7em 0.8em;
+    border-radius: 0.1em;
+}
+
+main section:nth-child(3) article:nth-child(1) button {
+    width: max-content;
+    padding: 1.5em 2.5em;
+    cursor: pointer;
+    background: #058d20;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 0.2em;
+    margin-top: 0.7em;
+    text-transform: uppercase;
+}
+
+main section:nth-child(3) article img {
+    width: 33vw;
+    height: auto;
+    border: 5px solid #fff;
+    outline: 5px solid #058d20;
+}
+
+/* MAIN LIENS */
+main section:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+main section:nth-child(4) article:nth-child(1) p {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+main section:nth-child(4) article:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2em;
+}
+
+main section:nth-child(4) article:nth-child(2) img {
+    width: 15vw;
+    height: 15vh;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+}
+
+footer section:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    align-items: center;
+    padding: 1.5em;
+    text-align: center;
+}
+
+footer section:nth-child(1) article:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+footer section:nth-child(1) article:nth-child(1) p:nth-child(1) {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #262626;
+    font-weight: 600;
+}
+
+footer section:nth-child(1) article:nth-child(1) p span {
+    font-size: 1.3em;
+    color: #058d20;
+}
+
+footer section:nth-child(1) article:nth-child(1) p:nth-child(2) {
+    background: #f3f3f3;
+    padding: 0.7em 0.8em;
+    border-radius: 0.1em;
+}
+
+footer section:nth-child(1) article:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
+
+footer section:nth-child(1) article:nth-child(2) i {
+    background: #058d20;
+    color: #fff;
+    padding: 0.4em 0.6em;
+    border: 2px solid #fff;
+    outline: 2px solid #058d20;
+    border-radius: 50%;
+    font-size: 1.1em;
+}
+
+footer section:nth-child(1) article:nth-child(2) input {
+    padding: 0.9em;
+    width: 35vw;
+    border-radius: 2em;
+    border: none;
+    outline: 2px solid #058d20;
+}
+
+footer section:nth-child(1) article:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+}
+
+footer section:nth-child(1) article i {
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+footer section:nth-child(1) article:nth-child(3) i {
+    color: #058d20;
+    background: #ebebeb;
+    padding: 0.3em 0.5em;
+    outline: 1px solid #d5d5d5;
+    border-radius: 0.1em;
+}
+
+
+footer section:nth-child(2) article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    background: #058d20;
+    color: #fff;
+}
+
+footer section:nth-child(2) article p {
+    cursor: default;
+}
+
+footer section:nth-child(2) article p span {
+    cursor: pointer;
+}
+
+footer section:nth-child(2) article p span:hover {
+    text-decoration: underline;
+}
