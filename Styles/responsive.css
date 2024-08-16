@@ -1,0 +1,24 @@
+@media screen and (max-width: 480px) {}
+
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 0.9em;
+    }
+    .header {
+        display: none;
+    }
+
+    .headerMobile {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+    header section article {
+        display: flex;
+        flex-direction: row !important;
+        gap: 1em !important;
+        align-items: center;
+    }
+}
