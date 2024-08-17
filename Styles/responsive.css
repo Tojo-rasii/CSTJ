@@ -1,9 +1,129 @@
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 300px) {
+    .headerMobile section article:nth-child(1)::before {
+        display: none;
+    }
+
+    .headerMobile section {
+        display: flex;
+        flex-direction: column !important;
+        gap: 1em;
+        justify-content: center !important;
+        text-align: center;
+        padding-bottom: 1.3em !important;
+    }
+
+    .headerMobile section article:nth-child(3) i {
+        font-size: 1em !important;
+    }
+
+    .headerMobile section article:nth-child(1) p {
+        display: block !important;
+    }
+
+    nav section article:nth-child(2) {
+        padding: 2em 0 0.5em !important;
+        padding-bottom: 0.5em;
+        width: 100% !important;
+        justify-content: left !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .headerMobile section article:nth-child(1)::before {
+        font-size: 1.5em !important;
+    }
+
+    .headerMobile section article:nth-child(3) i {
+        font-size: 1em !important;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    nav {
+        padding: 0 !important;
+    }
+
+    nav .sectionMobile {
+        padding-inline: 0 !important;
+        display: flex;
+        flex-direction: column !important;
+        padding-top: 1em;
+    }
+
+    nav section article:nth-child(1) {
+        width: 100%;
+        justify-content: space-between !important;
+
+    }
+
+    nav section article span p {
+        display: none;
+    }
+
+    .sectionMobile440px article:nth-child(1) {
+        width: 100%;
+        justify-content: center !important;
+        gap: 2em !important;
+
+    }
+
+    nav section article:nth-child(2) {
+        padding: 2em;
+        padding-bottom: 0.5em;
+        width: 100%;
+        justify-content: center !important;
+    }
+
+    .headerMobile section article:nth-child(1)::before {
+        content: 'C.S.T.J' !important;
+        font-size: 2em;
+        text-transform: uppercase;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 0.3em 0;
+        letter-spacing: 0.2em;
+    }
+
+    .headerMobile section article:nth-child(1) p {
+        display: none;
+
+    }
+
+    #Actu article div input {
+        width: 60vw !important;
+    }
+
+    main section:nth-child(1) article span:last-child i {
+        margin-bottom: -2em !important;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    nav section {
+        padding-inline: 0 !important;
+    }
+
+    nav section article img {
+        width: 3.5em !important;
+        height: auto;
+        object-fit: contain !important;
+        cursor: pointer;
+    }
+
+    nav section article img:nth-child(2) {
+        width: 7em !important;
+        height: auto;
+        object-fit: contain !important;
+    }
+
+}
 
 @media screen and (max-width: 768px) {
-    body{
+    body {
         font-size: 0.9em;
     }
+
     .header {
         display: none;
     }
@@ -11,9 +131,142 @@
     .headerMobile {
         display: block !important;
     }
+
+
+    .sectionMobile {
+        padding-inline: 0 !important;
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+    }
+
+    .sectionMobile article:nth-child(1) {
+        width: 100% !important;
+        justify-content: center !important;
+        gap: 2em !important;
+
+    }
+
+    nav section article span i {
+        font-size: 1.5em !important;
+    }
+
+
+    nav section article:nth-child(2) {
+        /* background: red; */
+    }
+
+    #nav-p {
+        display: none !important;
+    }
+
+    nav section article span p {
+        max-width: 10vw;
+        overflow: hidden;
+        text-wrap: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .bi-at {
+        font-size: 2em !important;
+    }
+
+    footer section:nth-child(2) article {
+        display: flex;
+        flex-direction: column-reverse !important;
+        gap: 1em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+
+    .header {
+        display: none;
+    }
+
+    nav section article:nth-child(1) {
+        width: 100%;
+        justify-content: space-around !important;
+
+    }
+
+    nav section article:nth-child(2) {
+        padding-top: 2.5em !important;
+        padding-bottom: 0.5em;
+        width: 100%;
+        justify-content: space-between !important;
+
+    }
+
+
+    nav section {
+        padding-inline: 0 !important;
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .headerMobile {
+        display: block !important;
+    }
+
+    main section:nth-child(1) article span i {
+        bottom: 0 !important;
+    }
+
+    main section:nth-child(3) article:nth-child(2) {
+        display: flex;
+        flex-direction: column-reverse !important;
+        padding-top: 2em !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    main section:nth-child(3) article:nth-child(2) figure {
+        width: 100% !important;
+        text-align: center;
+        align-items: center !important;
+    }
+
+    main section:nth-child(3) article:nth-child(2) figure p:nth-child(3) {
+        width: 90% !important;
+
+    }
+
+    main section:nth-child(3) article:nth-child(2) figure:nth-child(2) picture:nth-child(1) {
+        margin-top: 0 !important;
+    }
+
+    main section:nth-child(3) article:nth-child(2) figure img {
+        width: 100% !important;
+    }
+
+    main section:nth-child(3) article:nth-child(2) figure:nth-child(2) picture:nth-child(1) img:nth-child(1),
+    main section:nth-child(3) article:nth-child(2) figure:nth-child(2) picture:nth-child(2) img:nth-child(2) {
+        scale: 0.9;
+    }
+
+    main section:nth-child(4) article:nth-child(2) {
+        max-width: 90% !important;
+    }
+
+    main section:nth-child(5) article:nth-child(2) {
+        width: 90% !important;
+
+    }
+
+    main section:nth-child(5) article:nth-child(2) form label :where(input, textarea) {
+        width: 70vw !important;
+    }
+
+    footer section:nth-child(1) article:nth-child(2) input {
+        width: 60vw !important;
+
+    }
 }
 
 @media screen and (max-width: 1080px) {
+
 
     header section article {
         display: flex;
