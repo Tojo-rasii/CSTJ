@@ -1,3 +1,7 @@
+
+
+
+
 const active = document.querySelector('.active');
 const aLink = document.querySelectorAll('header section article:nth-child(2) a');
 
@@ -49,6 +53,8 @@ document.addEventListener('scroll', () => {
 
     })
 })
+
+
 
 
 aLink.forEach((link, index) => {
@@ -103,6 +109,7 @@ aLink.forEach((link, index) => {
                 break;
         }
     }
+
 })
 
 
@@ -124,4 +131,17 @@ function scrollD() {
     window.location.href = '#Actu';
 
 }
+
+const search = document.querySelector('.bi-search');
+const searchicon = document.querySelector('#search');
+
+
+search.addEventListener('click', () => {
+    window.location.href = 'Components/recherche.html';
+
+});
+searchicon.addEventListener('click', () => {
+    window.location.href = '../Components/recherche.html';
+
+});
 
