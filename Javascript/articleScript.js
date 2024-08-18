@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             image: 'https://scontent.ftnr2-2.fna.fbcdn.net/v/t39.30808-6/452680706_477107705044744_8122406010973231508_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEKnCMYnAF9gl6R1PgmkvqoioECLeNAW5KKgQIt40BbkjyYXxxERjm4mq1FgKyzW1GhICmdSQqWI63iO98E2oDt&_nc_ohc=9FCh1RL8-bMQ7kNvgFH6F0L&_nc_ht=scontent.ftnr2-2.fna&oh=00_AYBRrDUOm-hSGNXd-cixbK-wO1U5C2fhd9CI4E67r5xGkQ&oe=66C4205C',
-            title: 'FAMETRAHANA SAMBOADY NY SOLOPBAVAMBAHOAKA VOAFIDY TETO ANTANANARIVO',
+            title: 'FAMETRAHANA SAMBOADY NY SOLOMBAVAMBAHOAKA VOAFIDY TETO ANTANANARIVO',
             description: `Antananarivo faha 24 Jolay 2024
                                 -----------------------------------------------------
                                 [ Lanonam-pametrahana ny samboady ny ireo Solombavambahoaka sasantsasany voafidy teto
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             image: 'https://scontent.ftnr2-2.fna.fbcdn.net/v/t39.30808-6/454930678_1013622457473171_5696647556461907158_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEspZqgq5l0L5N3UrnoWYu8I3g5WuikC5EjeDla6KQLkdOLl3ukzHQtYhTaa0cEGmSTPTjqwLmOEtRKmBqx5BW3&_nc_ohc=fyYCSGtDJkcQ7kNvgGzcvYW&_nc_ht=scontent.ftnr2-2.fna&oh=00_AYDHuUGwl_DyIJM24POM74EMxAL36dy2YI2ti_kkCh0nAQ&oe=66C7A4E3',
-            title: `𝗙𝗜𝗩𝗢𝗥𝗜𝗔𝗡𝗔 𝗧𝗦𝗬 𝗔𝗥𝗔-𝗣𝗢𝗧𝗢𝗔𝗡𝗔 𝗙𝗔𝗛𝗔𝗥𝗢𝗔 𝗛𝗢 𝗔𝗡'𝗡𝗬 𝗧𝗔𝗢𝗡𝗔 𝟮𝟬𝟮𝟰 𝗧𝗘𝗧𝗢 𝗔𝗡𝗜𝗩𝗢𝗡'𝗡𝗬 𝗔𝗡𝗧𝗘𝗡𝗜𝗠𝗜𝗘𝗥𝗔𝗡𝗗𝗢𝗛𝗢𝗟𝗢𝗡𝗔`,
+            title: `FIVORIANA TSY ARA POTOANA FAHAROA HO AN'NY TAONA 2024 TETO ANIVON'NY ANTENIMIERANDOHOLONA`,
             description: `Ho fanatanterahana ny voafaritra ao amin'ny didim-panjakana laharana faha 2024-1490 noraisin'ny Filohan'ny Repoblikan'i Madagasikara nandritra ny filankevitry ny Minisitra ny Alatsinainy 05 aogositra 2024 dia nivory tsy ara-potoana ny Parlemanta ny zoma 09 aogositra 2024 sy ny alatsinainy 12 aogositra 2024. Lahadinika amin'izany ny fanoloran'Andriamatoa 𝑵𝑻𝑺𝑨𝒀 𝑪𝒉𝒓𝒊𝒔𝒕𝒊𝒂𝒏, Praiminisitra Lehiben'ny Governemanta, ny fandaharan'asa hanatanterahana ny Politika ankapoben'ny Fanjakana. 
 🗓️Ho an'ny teto anivon'ny Antenimierandoholona dia androany alatsinainy 12 aogositra 2024 no nanatanterahana ny fivoriana tsy ara-potoana.
 👉Ny fotoam-pivoriana dia teo ambany fitarihan'ny jeneraly 𝑹𝑨𝑽𝑨𝑳𝑶𝑴𝑨𝑵𝑨𝑵𝑨 𝑹𝒊𝒄𝒉𝒂𝒓𝒅, Filohan'ny Antenimierandoholona, notronon'ireo Mpikambana ao amin'ny Birao Maharitra sy ireo Loholon'i Madagasikara, ary natrehan'ireo olo-manakaja isan-tsokajiny.
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             image: 'https://scontent.ftnr2-2.fna.fbcdn.net/v/t39.30808-6/452931095_472365925752817_2532032350926771276_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEISgmWWJfhIFjXZuqGq7nd1s8BwIj_awHWzwHAiP9rATMExdPJn6aEC3W13VwmXhL8jO0Y2tjd_2O1enTfA4-C&_nc_ohc=hsZsOjnDLIIQ7kNvgGuK5_e&_nc_ht=scontent.ftnr2-2.fna&oh=00_AYDEEvxQ1V0qJ-NRqGS5gw0wXU3WbGegDF7_zNrd6qlbuQ&oe=66C79268',
-            title: `𝗡𝗢𝗧𝗢𝗟𝗢𝗥𝗔𝗡𝗔 𝗧𝗔𝗥𝗔𝗧𝗔𝗦𝗬 𝗙𝗔𝗡𝗔𝗠𝗔𝗥𝗜𝗡𝗔𝗡𝗔 𝗡𝗬 𝗙𝗔𝗛𝗔𝗩𝗜𝗧𝗔𝗡'𝗡𝗬 𝗙𝗜𝗭𝗔𝗥𝗔𝗡'𝗔𝗦𝗔 𝗜𝗥𝗘𝗢 𝗠𝗣𝗜𝗔𝗡𝗔𝗧𝗥𝗔 𝗛𝗢 𝗠𝗣𝗜𝗧𝗦𝗔𝗥𝗔, 𝗦𝗔𝗠𝗣𝗔𝗠-𝗣𝗜𝗢𝗙𝗔𝗡𝗔𝗡'𝗡𝗬 𝗠𝗣𝗜𝗧𝗦𝗔𝗥𝗔 𝗠𝗜𝗦𝗔𝗛𝗔𝗡𝗔 𝗡𝗬 𝗔𝗗𝗬 𝗔𝗧𝗔𝗢 𝗔𝗠𝗜𝗡'𝗡𝗬 𝗙𝗔𝗡𝗝𝗔𝗞À𝗡𝗔 𝗥𝗘𝗛𝗘𝗙𝗔 𝗡𝗔𝗛𝗔𝗩𝗜𝗧𝗔 𝗙𝗜𝗢𝗙𝗔𝗡𝗔𝗡𝗔 𝗧𝗘𝗧𝗢 𝗔𝗡𝗜𝗩𝗢𝗡'𝗡𝗬 𝗔𝗡𝗧𝗘𝗡𝗜𝗠𝗜𝗘𝗥𝗔𝗡𝗗𝗢𝗛𝗢𝗟𝗢𝗡𝗔`,
+            title: `NOTOLORANA TARATASY FANAMARINANA NY FAHAVITAN'NY FIZARAN'ASA IREO MPIANATRA HO MPITSARA SAMPAM-PIOFANAN'NY MPITSARA MISAHANA NY ADY ATA AMIN'NY FANJAKANA REHEFA NAHAVITA FIOFANANA TETO ANIOVON'NY ANTENIMIERANDOHOLONA`,
             description: `Nifarana androany alakamisy 25 jolay 2024 ny fiofanana natrehan'ireo mpianatra ho Mpitsara ao amin'ny Sekoly ambony mampiofana ho Mpitsara sy Mpiraki-draharaha eny anivon’ny Fitsarana na "É𝒄𝒐𝒍𝒆 𝑵𝒂𝒕𝒊𝒐𝒏𝒂𝒍𝒆 𝒅𝒆 𝒍𝒂 𝑴𝒂𝒈𝒊𝒔𝒕𝒓𝒂𝒕𝒖𝒓𝒆 𝒆𝒕 𝒅𝒆𝒔 𝑮𝒓𝒆𝒇𝒇𝒆𝒔" (𝑬𝑵𝑴𝑮) ao amin'ny sampam-piofanan'ny Mpitsara misahana ny ady atao amin'ny Fanjakana.
 📜Arak'izany dia notolorana taratasy fanamarinana ny fahavitan'ny fizaran'asa na "Attestation de Stage" izy ireo, ka ny jeneraly 𝑹𝑨𝑽𝑨𝑳𝑶𝑴𝑨𝑵𝑨𝑵𝑨 𝑹𝒊𝒄𝒉𝒂𝒓𝒅, Filohan'ny Antenimierandoholona sy ireo Loholon'i Madagasikara izay tonga nanotrona azy no nanolotra izany. Anisan'ny nanatrika ny fotoana ihany koa ireo Tompon'andraikitra ambony eto anivon'ny Antenimierandoholona.
 👉Raha tsiahivina dia mpianatra miisa 20 avy ao amin'ny ENMG no niatrika fiofanana teto amin'ny Lapan'Anosikely nanomboka ny alatsinainy 22 jolay 2024 lasa teo. Fiofanana izay nifantoka indrindra tamin'ny fampahafantarana ny andraikitra sy ny anjara asan'ny Antenimierandoholona, ny fifandraisan'ity Andrimpanjakana ity amin’ireo Andrimpanjakana hafa eto Madagasikara ary ny fifanolanana amin'ny Fanjakana (Contentieux administratif).
@@ -121,18 +121,18 @@ L' Assemblée Nationale est une grande institution étatique qui devrait être p
         },
         {
             image: 'https://scontent.ftnr2-2.fna.fbcdn.net/v/t39.30808-6/455084309_808771908094884_8293725500441354812_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFz6qjfl2bkqZxRvXIv6RzSUkpu9dJBeRFSSm710kF5EX4a5GQMybIVlHbLQZeBcPN19ii9saywK0Ix3KpoNYlG&_nc_ohc=CfOCZ-IUm70Q7kNvgHXeYlK&_nc_ht=scontent.ftnr2-2.fna&oh=00_AYBuZkTaXdn3X0391k4GwOy5MM2AmD8zMEh71Q-FOoY23w&oe=66C78CE5',
-            title: `champion de Madagascar 2024`,
+            title: `CHAMPION DE MADAGASCAR 2024`,
             description: `Le Président de l'Assemblée nationale, Monsieur Tokely Justin, a accueilli ce 14 août au Palais de Tsimbazaza le « Disciples Football Club » (DFC) du Vakinankaratra. La délégation était composée du Député élu à Betafo, Monsieur Fiarovana Lovanirina, du Député élu à Antsirabe I, Monsieur Razafinimaro Désiré, ainsi que du Président du DFC.
 Le DFC, couronné champion de Madagascar 2024, s'apprête à se rendre à Maurice pour défendre les couleurs nationales lors d'un match prévu le 18 août, dans le cadre de la compétition pour le titre de champion d'Afrique.`
         },
         {
             image: 'https://scontent.ftnr2-2.fna.fbcdn.net/v/t39.30808-6/455072958_807880578184017_2279062132539767431_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGI8JNewig3JJ8PpGNKNkzuFUb_5LG6ZRkVRv_ksbplGZLqvUss_z2Ka2apuLNff91FK5FLKH4Jw522A5l3cyKo&_nc_ohc=snW6ZDCdRcUQ7kNvgF9ewwx&_nc_ht=scontent.ftnr2-2.fna&oh=00_AYAsj94CKon03jlIBNFcd9DOjhNDk4eD6heILKg4gzWYQQ&oe=66C7A3B1',
-            title: `fanambaram-pananana ireo solombavambahoaka `,
+            title: `FANAMBARAM-PANANANA IREO SOLOMBAVAMBAHOAKA `,
             description: `Nanatanteraka ny fanambaram-pananana ireo solombavambahoaka androany talata faha-13 aogositra 2024. Izany dia ho fanajana ny voalazan’ny Lalampanorenana amin’ny andininy faha-41 izay milaza fa eny amin’ny Fitsarana Avo momba ny Lalampanorenana no anaovan’ny Filohan’ny Repoblika, ny Governemanta, ny Solombavambahoaka, ny Loholona ary ireo mpikambana ao amin’ny HCC ny fanambaram-pananany mialohan’ny hisahanany ny andraikiny.`
         },
         {
             image: 'https://scontent.ftnr2-2.fna.fbcdn.net/v/t39.30808-6/453908489_484211667667681_2830344146875643892_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHZbkzVNkQOHp04TT5jh28d5_N1PBjudMnn83U8GO50yU9OKbib_YMPuhbe9WZYM3kP_uQ4J44xo8A8kM9Cu3Vj&_nc_ohc=gEj1qUc2SQsQ7kNvgGLhW4c&_nc_ht=scontent.ftnr2-2.fna&oh=00_AYDVT9qdpi1LZS41DVh3vzyAn1BpHywZ3W5qhlB055JZ8A&oe=66C7885F',
-            title: `Fitsidihana nataon'ny ekipa ny #COSEF ny Kestiora ny  Antenimierandoholona Madagasikara`,
+            title: `FITSIDIHANA NATAON'NY EKIPA NY #COSEF NY KESTIORA NY  ANTENIMIERANDOHOLONA MADAGASIKARA`,
             description: `Nitsidika / namangy sady nifampiresaka tamin'Atoa Senatera Eddie Fernand  tao amin'ny birao fiasany teny amin'ny Lapa ny Anosikely ireto ekipa ny #COSEF roa  mirahalahy ireto ( Rakotonirina Urluc Audry sy Delanixe Mangeland Soavazaha ) anio 05  Aogositra 2024 .
 🔵Fanamafisana fiaraha-miasa hatrany moa ny resadresaka nifanaovana ny roa tonta.Izany hoe ny asa fampandrosoana efa natomboka niarahana tamin'ny ekipa ny #COSEF dia tsy maintsy ho tohizana ary fanatsarana izany no atao hoy ny Loholon'i Madagasikara  Atoa Eddie FERNAND Serge .
 👉Teo ihany koa ny fankasitrahana ireo ekipa tamin'ny fifanomezan-tanana nahavoafidy ny depiote Éric FERNAND tao amin'ny distrika ny Antalaha.
