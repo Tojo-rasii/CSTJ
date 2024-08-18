@@ -25,14 +25,14 @@
                         <i class="bi-at"></i>
                         <p>tokelyjustin@gmail.com</p>
                     </span>
-                    <span>
+                    <a href="https://www.facebook.com/profile.php?id=100005134065049"><span>
                         <i class="bi-facebook"></i>
                         <p>Tokely Justin</p>
-                    </span>
-                    <span>
+                    </span></a>
+                    <a href="https://www.facebook.com/profile.php?id=100082365563440"><span>
                         <i class="bi-facebook"></i>
                         <p>Cosef ofisialy</p>
-                    </span>
+                    </span></a>
                     <span>
                         <i class="bi-whatsapp"></i>
                         <p>+261341234567</p>
@@ -42,11 +42,13 @@
         </nav>
         <header class="header">
             <section>
-                <a href="../index.html"><article>
-                    <p id="home"><span>C</span>omite de <span>S</span>outien
-                        <span>T</span>okely <span>J</span>ustin
-                    </p>
-                </article></a>
+                <a href="../index.html">
+                    <article>
+                        <p id="home"><span>C</span>omite de <span>S</span>outien
+                            <span>T</span>okely <span>J</span>ustin
+                        </p>
+                    </article>
+                </a>
                 <article class='active'>
                     <a href="../index.html #">
                         <p>Accueil</p>
@@ -66,9 +68,9 @@
                 </article>
                 <article>
                     <a href="../Components/recherche.html"><label>
-                        <i class="bi-search">
-                        </i>
-                    </label></a>
+                            <i class="bi-search">
+                            </i>
+                        </label></a>
                     <label for="dark">
                         <i class="bi-moon-stars" id="dark-mode">
                         </i>
@@ -79,38 +81,48 @@
         </header>
         <header class="headerMobile">
             <section>
-                <article>
-                    <p id="home"><span>C</span>omite de <span>S</span>outien
-                        <span>T</span>okely <span>J</span>ustin
-                    </p>
-                </article>
+                <a href="../index.html">
+                    <article>
+                        <p id="home"><span>C</span>omite de <span>S</span>outien
+                            <span>T</span>okely <span>J</span>ustin
+                        </p>
+                    </article>
+                </a>
                 <article></article>
-                <!-- <article class='active'>
-                    <a href="#">
-                        <p>Accueil</p>
-                    </a>
-                    <a href="#Actu">
-                        <p>Actualites</p>
-                    </a>
-                    <a href="#Apropos">
-                        <p>Apropos</p>
-                    </a>
-                    <a href="#Liens">
-                        <p>Liens Utiles</p>
-                    </a>
-                    <a href="#Contact">
-                        <p>Contact</p>
-                    </a>
-                </article> -->
                 <article>
-                    <label>
-                        <i class="bi-search">
-                        </i>
-                    </label>
+                    <a href="../Components/recherche.html"><label>
+                            <i class="bi-search" id="search">
+                            </i>
+                        </label></a>
                     <label for="dark">
                         <i class="bi-moon-stars" id="dark-mode">
                         </i>
                         <input type="checkbox" name="dark" id="dark">
+
+                        <div class='active pop'>
+                            <div>
+                                <a href="../index.html">
+                                    <i class="bi-house"></i>
+                                    <p>Accueil</p>
+                                </a>
+                                <a href="../index.html #Actu">
+                                    <i class="bi-newspaper"></i>
+                                    <p>Actualites</p>
+                                </a>
+                                <a href="../index.html #Apropos">
+                                    <i class="bi-info"></i>
+                                    <p>Apropos</p>
+                                </a>
+                                <a href="../index.html #Liens">
+                                    <i class="bi-link-45deg"></i>
+                                    <p>Liens Utiles</p>
+                                </a>
+                                <a href="../index.html #Contact">
+                                    <i class="bi-telephone"></i>
+                                    <p>Contact</p>
+                                </a>
+                            </div>
+                        </div>
                     </label>
                     <label>
                         <i class="bi-list"></i>
@@ -128,14 +140,14 @@
                         <p>Recherche</p>
                     </div>
                     <div>
-                        <input type="search"  id="searchInput" placeholder="Recherche.." name="" id="">
+                        <input type="search" id="searchInput" placeholder="Recherche.." name="" id="">
                         <i class="bi-search"></i>
                     </div>
                 </article>
                 <article id="articlesContainer">
                     <!-- article -->
                 </article>
-                <article>
+                <article style="display: none;">
                     <button>
                         Suivant
                         <i class="bi-chevron-right"></i>
@@ -146,6 +158,9 @@
     </div>
 
     <script src="../Javascript/script.js"></script>
+    <script src="../Javascript/articleScript.js"></script>
+    <script src="../Javascript/searchArticleScript.js"></script>
+    <script src="../Javascript/darkMode.js"></script>
 
 </body>
 

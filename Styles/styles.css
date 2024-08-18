@@ -49,7 +49,6 @@ p {
     height: 1px;
     transition: margin 0.3s;
     background: #fff;
-    display: none;
 }
 
 
@@ -239,10 +238,10 @@ nav section article span:nth-child(1) i {
 }
 
 nav section article span:where(:nth-child(1), :nth-child(3)) i {
-    color: var(--color-orange);
+    color: var(--color-orange) !important;
 }
 
-nav section article span:last-child i {
+.bi-whatsapp{
     color: var(--color-green);
 }
 
@@ -485,8 +484,8 @@ main section:nth-child(2) article figure figcaption {
 
 main section:nth-child(2) article figure figcaption p:nth-child(1) {
     font-size: 1.5em;
-    font-weight: 600;
-    text-transform: capitalize;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
 }
 
 main section:nth-child(2) article figure figcaption p:nth-child(2) {
