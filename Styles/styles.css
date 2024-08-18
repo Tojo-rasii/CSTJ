@@ -49,6 +49,7 @@ p {
     height: 1px;
     transition: margin 0.3s;
     background: #fff;
+    display: none;
 }
 
 
